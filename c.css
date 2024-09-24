@@ -1,0 +1,59 @@
+body {
+    font-family: Open Sans, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7; /* light gray background */
+}
+
+section {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+section::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #f0f0f0, #e0e0e0); /* added a gradient background */
+    opacity: 0.5; /* added opacity to create a subtle overlay */
+}
+
+.converter {
+    background: #fff; /* white background */
+    padding: 30px; /* increased padding for better spacing */
+    border-radius: 10px; /* added border radius for a smooth look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added box shadow for depth */
+    text-align: center;
+}
+
+input, select, button {
+    margin: 15px 0; /* increased margin for better spacing */
+    padding: 15px; /* increased padding for better spacing */
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc; /* added border for a clean look */
+    border-radius: 5px; /* added border radius for a smooth look */
+    cursor: pointer; /* changed cursor to pointer */
+}
+
+button {
+    background-color: #337ab7; /* changed to a more professional blue color */
+    color: #fff; /* white text color */
+    border: none;
+    cursor: pointer; /* changed cursor to pointer */
+}
+
+button:hover {
+    background-color: #23527c; /* changed to a darker blue color on hover */
+    cursor: pointer; /* changed cursor to pointer */
+}
