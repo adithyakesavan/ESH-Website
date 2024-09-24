@@ -5,6 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #4072a1; /* light gray background */
+    background-image: url('Ay Işığı.jpg');
 }
 
 section {
