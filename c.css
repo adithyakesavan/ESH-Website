@@ -4,8 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f7f7f7; /* light gray background */
-    background-image:url('es.jpg');
+    background-color: #4072a1; /* light gray background */
 }
 
 section {
