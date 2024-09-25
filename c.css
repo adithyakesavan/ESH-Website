@@ -5,7 +5,11 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #4072a1; /* light gray background */
-    background-image: url('cc.jpg');
+    background-image: url('cover.jpg');
+    background-repeat: no-repeat; /* add this to prevent repeating */
+    background-size: cover;
+    color: #ccc;
+
 }
 
 section {
@@ -30,10 +34,10 @@ section::before {
 }
 
 .converter {
-    background: #fff; /* white background */
+    background: #0e0d0d; /* white background */
     padding: 30px; /* increased padding for better spacing */
     border-radius: 10px; /* added border radius for a smooth look */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added box shadow for depth */
+    box-shadow: 0 0 10px rgba(238, 232, 232, 0.1); /* added box shadow for depth */
     text-align: center;
 }
 
@@ -52,6 +56,7 @@ button {
     color: #fff; /* white text color */
     border: none;
     cursor: pointer; /* changed cursor to pointer */
+    padding: left 30px;;
 }
 
 button:hover {
