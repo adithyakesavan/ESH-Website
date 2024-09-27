@@ -5,10 +5,11 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #4072a1; /* light gray background */
-    background-image: url('co.jpg');
-    background-repeat: no-repeat; /* add this to prevent repeating */
-    background-size: cover;
     color: #ccc;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow: hidden;
 
 }
 
@@ -35,11 +36,23 @@ section::before {
 
 .converter {
     background: #0e0d0d; /* white background */
+    background-image: url('cover.jpg');
+    background-repeat: no-repeat; /* add this to prevent repeating */
+    background-size: cover;
     padding: 30px; /* increased padding for better spacing */
     border-radius: 10px; /* added border radius for a smooth look */
     box-shadow: 0 0 10px rgba(238, 232, 232, 0.1); /* added box shadow for depth */
     text-align: center;
 }
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
 
 input, select, button {
     margin: 15px 0; /* increased margin for better spacing */
