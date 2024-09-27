@@ -11,8 +11,8 @@
     <div class="converter">
         <h2>Number System Converter</h2>
         <video autoplay loop muted id="video-background">
-		<source src="sauke.mp4" type="video/mp4">
-	</video>
+            <source src="sauke.mp4" type="video/mp4">
+        </video>
         <label for="from">From:</label>
         <select id="from">
             <option value="decimal">Decimal</option>
@@ -29,7 +29,10 @@
         </select>
         <input type="text" id="inputNumber" placeholder="Enter number">
         <button onclick="convert()">Convert</button>
-        <div id="result"></div>
+        <div class="result-box">
+            <h3>Result:</h3>
+            <div id="result"></div>
+        </div>
     </div>
     <script src="j.js"></script>
 </body>
