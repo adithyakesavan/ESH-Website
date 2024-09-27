@@ -36,7 +36,7 @@ section::before {
 
 .converter {
     background: #0e0d0d; /* white background */
-    background-image: url('cover.jpg');
+    background-image: url('co.jpg');
     background-repeat: no-repeat; /* add this to prevent repeating */
     background-size: cover;
     padding: 30px; /* increased padding for better spacing */
